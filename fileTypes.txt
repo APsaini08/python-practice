@@ -1,53 +1,35 @@
 1. Text-based Files
-These are human-readable and easy to work with.
-
-TXT (.txt) – Plain text, often used for notes or logs.
-
-CSV (.csv) – Comma-Separated Values (tables, spreadsheets).
-
-TSV (.tsv) – Tab-Separated Values.
-
-JSON (.json) – JavaScript Object Notation, used for APIs and configs.
-
-XML (.xml) – Extensible Markup Language (used in older web/data exchange systems).
-
-YAML (.yaml) – Human-friendly configuration format (used in DevOps tools).
+-- These are human-readable and easy to work with.
+-> TXT (.txt) – Plain text, often used for notes or logs.
+-> CSV (.csv) – Comma-Separated Values (tables, spreadsheets).
+-> TSV (.tsv) – Tab-Separated Values.
+-> JSON (.json) – JavaScript Object Notation, used for APIs and configs.
+-> XML (.xml) – Extensible Markup Language (used in older web/data exchange systems).
+-> YAML (.yaml) – Human-friendly configuration format (used in DevOps tools).
 
 2. Binary Files
-Used for faster or more compact storage, not human-readable.
-
-BIN (.bin) – Generic binary data.
-
-DAT (.dat) – Generic data file (used by custom applications).
-
-DB (.db, .sqlite) – SQLite databases (stores structured tables).
-
-Parquet (.parquet) – Optimized for big data (columnar storage).
+-- Used for faster or more compact storage, not human-readable.
+-> BIN (.bin) – Generic binary data.
+-> DAT (.dat) – Generic data file (used by custom applications).
+-> DB (.db, .sqlite) – SQLite databases (stores structured tables).
+-> Parquet (.parquet) – Optimized for big data (columnar storage).
 
 3. Database Files
-For storing large structured data with query support.
-
-SQL Dumps (.sql) – Exported database commands.
-
-MDB / ACCDB (.mdb, .accdb) – Microsoft Access database files.
-
-DBF (.dbf) – Older dBase/FoxPro database files.
+-- For storing large structured data with query support.
+-> SQL Dumps (.sql) – Exported database commands.
+-> MDB / ACCDB (.mdb, .accdb) – Microsoft Access database files.
+-> DBF (.dbf) – Older dBase/FoxPro database files.
 
 4. Log and Configuration Files
-LOG (.log) – Event or system logs.
-
-INI (.ini) – Key-value pair configuration files.
-
-ENV (.env) – Environment variables for programs.
+-> LOG (.log) – Event or system logs.
+-> INI (.ini) – Key-value pair configuration files.
+-> ENV (.env) – Environment variables for programs.
 
 5. Specialized Data Files
-HDF5 (.h5) – Hierarchical Data Format, used in machine learning/scientific computing.
-
-Feather / Arrow (.feather, .arrow) – High-speed binary formats for Python/R.
-
-Pickle (.pkl) – Python object serialization (not secure for untrusted data).
+-> HDF5 (.h5) – Hierarchical Data Format, used in machine learning/scientific computing.
+->Feather / Arrow (.feather, .arrow) – High-speed binary formats for Python/R.
+->Pickle (.pkl) – Python object serialization (not secure for untrusted data).
 
 6. Other Common Formats
-Excel (.xls, .xlsx) – Spreadsheet format.
-
-Avro / ORC (.avro, .orc) – Big data storage (Hadoop, Spark).
+-> Excel (.xls, .xlsx) – Spreadsheet format.
+-> Avro / ORC (.avro, .orc) – Big data storage (Hadoop, Spark).
